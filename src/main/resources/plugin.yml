@@ -1,0 +1,12 @@
+name: EasyPay
+version: 1.0.0
+
+main: me.evilzialstd.easyPay.EasyPay
+api-version: '1.21'
+
+commands:
+  balance:
+    description: Show your balance
+  pay:
+    description: Pay another player
+    usage: /pay <player> <amount>
